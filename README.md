@@ -19,3 +19,5 @@ A função cipher recebe uma mensagem e uma chave como entrada. Primeiro, ela ge
 A função decoder recebe uma mensagem cifrada (gerada pela funcao acima) e uma chave como entrada. Da mesma forma que o cipher, ela gera a keystream chamando a função gerar_chave. Em seguida, percorre cada caractere da mensagem cifrada e realiza a operação de decifra de Vigenère, subtraindo os valores ASCII do caractere cifrado e da correspondente letra da keystream e aplicando a aritmética modular para obter o caractere decifrado. Os caracteres não alfabéticos são mantidos inalterados. A função retorna a mensagem decifrada.
 
 O código principal solicita ao usuário que digite uma mensagem e uma chave. Em seguida, chama as funções cipher e decoder para cifrar e decifrar a mensagem usando a chave fornecida. Por fim, exibe a mensagem cifrada e a mensagem decifrada.
+
+Para executar o código basta ter o python instalado em sua máquina, clonar o repositório, entrar nele e executar o comando "python3 sc.py" (ou apenas "python sc.py")
