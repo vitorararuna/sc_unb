@@ -1,5 +1,10 @@
 # sc_unb
 
+Vitor de Oliveira Araujo Araruna
+202060980
+
+Thiago Maciel de campos 
+180131699
 
 A cifra de Vigenère é um método de criptografia polialfabética inventado por Blaise de Vigenère no século XVI. Ela é uma extensão da cifra de César, que é uma cifra de substituição simples em que cada letra da mensagem é substituída por outra letra deslocada um determinado número de posições no alfabeto.
 
