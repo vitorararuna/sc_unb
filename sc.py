@@ -1,4 +1,5 @@
 import string
+from unidecode import unidecode
 
 # Produz a sequência de chaves necessária para criptografar ou descriptografar.
 def generatingKey(mensagem, chave):
@@ -31,6 +32,7 @@ def decoder(msgCifrada, chave):
 
 # Aceita uma chave e uma mensagem (codifica usando a técnica de Vigenère).
 def cipher(mensagem, chave):
+    mensagem = unidecode(mensagem) 
     keystream = generatingKey(mensagem, chave)
     msgTamanho = len(mensagem)
     msgCifrada = ''
